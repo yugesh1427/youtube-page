@@ -53,7 +53,7 @@ https://www.youtube.com/embed/<?php echo $youtubeId; ?>?autoplay=1">
 	</div>
 	<?php
 		//Its different for all users
-		$myApiKey = 'ENTER YOUR API KEY';
+		$myApiKey = 'AIzaSyChw0CecP11cOYRSnOTlqCbYZonpYSiQx0';
 		$googleApi =
 			'https://www.googleapis.com/youtube/v3/videos?id ='
 			. $youtubeId . '&key=' . $myApiKey . '&part=snippet';
